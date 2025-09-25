@@ -1,5 +1,3 @@
-# stego-env\Scripts\activate.bat
-
 from PIL import Image
 
 def text_to_bits(message: str) -> str:
@@ -95,3 +93,4 @@ def decode_message(stego_path):
     except Exception:
         raise ValueError("Failed to decode message — data may be corrupted.")
     return message
+
